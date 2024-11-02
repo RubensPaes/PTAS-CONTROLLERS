@@ -7,8 +7,8 @@ const logger = require('./middlewares/logger')
 
 app.use(logger)  
 app.use(express.json()) 
-app.use('/', homeRoute)
-app.use('/', itemsRoute) 
+app.use(homeRoute)
+app.use(itemsRoute) 
 
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`) 
