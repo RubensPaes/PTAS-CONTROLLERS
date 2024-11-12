@@ -1,0 +1,16 @@
+{
+  "name": "ptas-controllers",
+  "version": "1.0.0",
+  "description": "Middleware é uma camada intermediária de software que conecta diferentes componentes ou sistemas de uma aplicação, facilitando a comunicação e a troca de dados entre eles. Ele atua como uma ponte que permite ao sistema lidar com funções específicas em desenvolvimento de sistemas, como segurança, autenticação, logging, roteamento, e manipulação de requisições, sem que essas funcionalidades precisem estar incorporadas ao código principal da aplicação.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
